@@ -3,7 +3,7 @@ import Card from "./Card";
 function App() {
   return (
     <>
-    <Card></Card>
+    <Card name="hello">Yooo</Card>
     <Card></Card>
     <Card></Card>
     <Card></Card>

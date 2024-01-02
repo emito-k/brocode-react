@@ -1,6 +1,6 @@
 import profilePic from './assets/65490872.jpg';
 
-function Card() {
+function Card(cardDetails) {
     return (
         <div className="card">
             <img className="card-image" src={profilePic} width="150px" alt="profile picture"/>
