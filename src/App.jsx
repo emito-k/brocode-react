@@ -1,13 +1,14 @@
-import Button from "./Button.jsx";
-import Card from "./Card/Card.jsx";
+import Student from "./Student";
 
 function App() {
   return (
     <>
-    <Button></Button>
-    <Card></Card>
-    <Card></Card>
-    <Card></Card>
+    <Student name="Mito Khoza" age={30} isStudent={true}></Student>
+    <Student name="Sovie Naidu" age={42} isStudent={true}></Student>
+    <Student name="Renda Nelu" age={22} isStudent={true}></Student>
+    <Student name="Bob Bert" age={27} isStudent={false}></Student>
+    <Student name="Yash Kana" age={22} isStudent={true}></Student>
+    <Student name="Mish Naido" age={32} isStudent={true}></Student>
     </>
   ); 
 }
