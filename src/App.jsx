@@ -1,4 +1,4 @@
-import Button from "./Button/Button.jsx";
+import Button from "./Button.jsx";
 import Card from "./Card/Card.jsx";
 
 function App() {
